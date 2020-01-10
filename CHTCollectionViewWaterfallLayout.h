@@ -297,6 +297,7 @@ extern NSString *const CHTCollectionElementKindSectionFooter;
  */
 @property (nonatomic, assign) UIEdgeInsets sectionInset;
 
+@property (nonatomic, assign) BOOL enableStickyHeader;
 /**
  *  @brief The direction in which items will be rendered in subsequent rows.
  *  @discussion
